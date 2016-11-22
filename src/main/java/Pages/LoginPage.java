@@ -31,7 +31,7 @@ public class LoginPage extends MainPage{
         return pageProvider.Login();
     }
 
-    public MainPage scipAddFriends(){
+    public MainPage skipAddFriends(){
         click(SkipLink);
         click(SkipLink);
         click(NextLink);

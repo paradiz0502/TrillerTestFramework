@@ -20,7 +20,7 @@ public class PositiveTests extends BaseTest {
         LOGGER.info("Verify if user is able to login to the system using valid credentials");
         page.getToLoginPage();
         page.Login().fillCredentials(name, pass).clickLogin();
-        page.Login().scipAddFriends().GetToUserProfile();
+        page.Login().skipAddFriends().GetToUserProfile();
         page.Profile().checkUserTitle(expectedResult);
     }
 
