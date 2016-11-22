@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<data>
+    <ValidLoginTest>
+        <login>qatester</login>
+        <password>aqswdefr</password>
+        <expectedResult>qatester</expectedResult>
+    </ValidLoginTest>
+
+    <InValidLoginTest>
+        <login>qatestere</login>
+        <password>aqswdefre</password>
+        <expectedResult>User does not exist.</expectedResult>
+    </InValidLoginTest>
+
+
+
+
+</data>
