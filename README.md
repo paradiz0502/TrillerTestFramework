@@ -1,7 +1,7 @@
 ##Project main structure
 ###Main - > Java
-  1. java\Pages - contain page object classes
-  2. java\Utils - cntains utils clases:
+  1. java\Pages - contains page object classes
+  2. java\Utils - contains utils clases:
     - DriverManager - util to manage the work with driver
     - PageProvider - the class designed using Facade and Singleton pattern. Use for getting app pages
     - PropertiesManager - class contains methods to set properties from file
